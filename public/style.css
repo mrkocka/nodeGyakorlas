@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: ghostwhite;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+nav {
+  margin: 10px auto;
+}
+
+ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+ul li a {
+  color: ghostwhite;
+  text-decoration: none;
+  font-size: 20px;
+}
+ul li a:hover {
+  color: rgba(248, 248, 255, 0.514);
+}
+
+.meghalt-style {
+  width: 400px;
+  margin: 10px auto;
+}
